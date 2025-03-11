@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario WEB básico</title>
+</head>
+<body>
+    <h1>Formulario WEB básico</h1>
+    <hr>
+    <h2>Integrantes del equipo</h2>
+    <ul>
+        <li>Bojorquez Apodaca Carlos Andres</li>
+        <li>Cota Buelna Andres Ruben</li>
+        <li>Ruiz Soto Victor Jose</li>
+        <li>Soto Galvez Luis Angel</li>
+    </ul>
+
+    <fieldset>
+        <legend><strong>Información del usuario</strong></legend>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre">
+        <br><br>
+        
+        <label for="email">Dirección e-mail:</label>
+        <input type="email" id="email">
+        <br><br>
+        
+        <label for="ciudad">Ciudad:</label>
+        <select id="ciudad">
+            <option>Selecciona ciudad...</option>
+            <option>Los Mochis</option>
+            <option>Juan Jose Rios</option>
+            <option>El fuerte</option>
+        </select>
+        <br><br>
+        
+        <label>Aficiones:</label><br>
+        <input type="checkbox" id="deportes"> <label for="deportes">Deportes</label><br>
+        <input type="checkbox" id="coches"> <label for="coches">Coches</label><br>
+        <input type="checkbox" id="musica"> <label for="musica">Música</label>
+        <br><br>
+        
+        <label>Sexo:</label><br>
+        <input type="radio" id="masculino" name="sexo"> <label for="masculino">Masculino</label><br>
+        <input type="radio" id="femenino" name="sexo"> <label for="femenino">Femenino</label>
+    </fieldset>
+    <br>
+    <button type="Enviar">Enviar</button>
+</body>
+</html>

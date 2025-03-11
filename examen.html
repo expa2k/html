@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 300px;
+            border: 2px solid green;
+            padding: 10px;
+        }
+        .container h2 {
+            color: orange;
+        }
+        label {
+            font-weight: bold;
+        }
+        input, textarea {
+            width: 90%;
+            margin-bottom: 10px;
+            padding: 5px;
+            border: 1px solid green;
+        }
+        button {
+            background-color: lightgray;
+            border: 1px solid green;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Contactos</h2>
+        <form>
+            <label for="nombres">Nombres</label>
+            <input type="text" id="nombres" name="nombres"placeholder="ex: Ruben">
+            
+            <label for="apellidos">Apellidos</label>
+            <input type="text" id="apellidos" name="apellidos"placeholder="ex: cota">
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="ex: hola@gmail.com">
+            
+            <label for="telefono">Telefono</label>
+            <input type="text" id="telefono" name="telefono"placeholder="ex: 687174xxxx">
+            
+            <label for="mensaje">Escriba su Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" placeholder="ex: hola mundo"></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
